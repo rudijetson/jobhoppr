@@ -1,5 +1,5 @@
 import React from 'react';
-import RudiJetson from './playground';  // Import from playground.js
+import RudiJetson from './playground';
 
 function App() {
   return (
