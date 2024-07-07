@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.section-card {
+  background-color: var(--off-white);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.section-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.section-title {
+  color: var(--maroon-primary);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.ecosystem-stages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.stage-item {
+  background-color: var(--cream);
+  border-radius: 8px;
+  padding: 1rem;
+  flex: 1 1 calc(33.333% - 1rem);
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.stage-item svg {
+  margin-right: 0.5rem;
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.timeline-item {
+  background-color: var(--maroon-light);
+  color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.consortium-agreement {
+  background-color: var(--off-white);
+  border: 2px solid var(--maroon-primary);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.consortium-agreement:hover {
+  background-color: var(--maroon-primary);
+  color: var(--off-white);
+}
+
+.consortium-agreement h3 {
+  margin-top: 0;
+}
+
+.consortium-agreement svg {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+button {
+  background-color: var(--maroon-primary);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--maroon-dark);
+}
+
+@media (max-width: 768px) {
+  .ecosystem-stages {
+    flex-direction: column;
+  }
+
+  .stage-item {
+    width: 100%;
+  }
+
+  .timeline {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timeline-item {
+    margin-bottom: 1rem;
+  }
+}
