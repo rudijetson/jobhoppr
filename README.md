@@ -74,6 +74,6 @@ Contributions to improve the project are welcome. Please follow these steps:
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Contact
-Your Name - [your-email@example.com](mailto:your-email@example.com)
+Brandon Z. Hoff - [brandonzhoff@gmail.com](mailto:brandonzhoff@gmail.com)
 
 Project Link: [https://github.com/rudijetson/AI-Literacy](https://github.com/rudijetson/AI-Literacy)
