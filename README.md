@@ -1,79 +1,86 @@
-# AI-Integrated Curriculum Map
+# Job Hoppr - Professional Resume Builder
 
 ## Overview
-This project provides an interactive tool for mapping AI integration across various academic disciplines. It includes a curriculum map for visualizing how AI concepts are incorporated into different courses, as well as a department code explorer to help users navigate academic department codes and names.
+
+Job Hoppr is a modern, React-based web application designed to help users create professional resumes quickly and easily. With an intuitive interface and AI-powered optimization, Job Hoppr streamlines the resume creation process, allowing users to focus on showcasing their skills and experiences effectively.
 
 ## Features
-- Interactive AI-Integrated Curriculum Map
-- Department Code Explorer
-- Search functionality for department codes and names
-- Easy navigation between curriculum map and department explorer
+
+- User-friendly interface for building resumes
+- AI-powered resume optimization based on job descriptions
+- Real-time editing and preview
+- Multiple resume sections: Contact, Summary, Experience, Skills, and Education
+- Import existing resume data
+- Export resumes to PDF and HTML formats
+- Responsive design for desktop and mobile use
 
 ## Technologies Used
-- React
-- React Router for navigation
-- Tailwind CSS for styling
+
+- React.js
+- Node.js
+- Express.js
+- Anthropic's Claude AI (for resume optimization)
+- Tailwind CSS
+- Recharts (for data visualization, if applicable)
 
 ## Getting Started
 
 ### Prerequisites
-- Node.js (version 12 or higher)
-- npm (usually comes with Node.js)
+
+- Node.js (v14.0.0 or later)
+- npm (v6.0.0 or later)
 
 ### Installation
+
 1. Clone the repository:
    ```
-   git clone https://github.com/rudijetson/AI-Literacy.git
+   git clone https://github.com/your-username/job-hoppr.git
    ```
+
 2. Navigate to the project directory:
    ```
-   cd AI-Literacy
+   cd job-hoppr
    ```
-3. Install dependencies:
+
+3. Install dependencies for both client and server:
    ```
    npm install
+   cd server && npm install
    ```
 
-### Running the Application Locally
-To run the application in development mode:
-```
-npm start
-```
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. Create a `.env` file in the server directory and add your Anthropic API key:
+   ```
+   ANTHROPIC_API_KEY=your_api_key_here
+   ```
+
+5. Start the development server:
+   ```
+   npm run dev
+   ```
+
+6. Open your browser and visit `http://localhost:3000`
 
 ## Usage
-- The main page displays the AI-Integrated Curriculum Map.
-- Use the "Explore Department Codes" link to navigate to the Department Code Explorer.
-- In the Department Code Explorer, use the search bar to filter departments by code or name.
-- Use the "Back to Curriculum Map" link to return to the main page.
 
-## Deployment
-This project is set up to deploy to GitHub Pages. To deploy:
-
-1. Ensure your `package.json` has the correct `homepage` field:
-   ```json
-   "homepage": "https://rudijetson.github.io/AI-Literacy"
-   ```
-2. Run the deployment script:
-   ```
-   npm run deploy
-   ```
-
-The application will be available at [https://rudijetson.github.io/AI-Literacy](https://rudijetson.github.io/AI-Literacy)
+1. Fill in your personal information in the Contact section
+2. Add a professional summary
+3. Input your work experiences, including job titles, companies, dates, and responsibilities
+4. List your skills
+5. Add your educational background
+6. Use the AI optimization feature by providing a job description
+7. Preview your resume in real-time
+8. Export your completed resume as a PDF or HTML file
 
 ## Contributing
-Contributions to improve the project are welcome. Please follow these steps:
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Contact
-Brandon Z. Hoff - [brandonzhoff@gmail.com](mailto:brandonzhoff@gmail.com)
+This project is licensed under the MIT License.
 
-Project Link: [https://github.com/rudijetson/AI-Literacy](https://github.com/rudijetson/AI-Literacy)
+## Acknowledgements
+
+- [Anthropic](https://www.anthropic.com) for providing the AI technology
+- [Tailwind CSS](https://tailwindcss.com) for the utility-first CSS framework
+- [React](https://reactjs.org) for the frontend library
